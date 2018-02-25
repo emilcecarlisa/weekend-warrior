@@ -4,7 +4,7 @@ These exercises lean on [Test-Driven Development (TDD)](https://en.wikipedia.org
 In these exercises, you will be provided a set of tests (instead of having to write your own). Your job is to read the tests, discern what they're asking you to do, then write the code that makes each test pass, one by one. The process should break down like this:
 
 1. Run the test suite. It's written using the Minitest framework, and can be
-run with `$ ruby hello_world_test.rb`.
+run with `$ ruby hello_world_spec.rb`.
 1. Read the error. Think about the error. Then make the _smallest change possible_ to the code to fix the error (and just that one error).
 1. Run the tests again. You may get a new error. If you do, rinse and repeat. Think. Make the smallest change to fix that error. Run the tests again.
 1. When the first test passes, enable the next test in the suite by removing the `skip` in the test code.
