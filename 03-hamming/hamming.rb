@@ -2,24 +2,24 @@ class Hamming
 
 attr_accessor :compute
 
-  index = 0
-  mutations = 0
+  # def initialize
+  #   compute
+  # end
 
-  def initialize
-    compute
-  end
+  def self.compute(x, y)
+    index = 0
+    mutations = 0
 
-  def compute(x, y)
-    # return nil if x.length != y.length
-    # check each character in string, if they don't match,
     while index < x.length
-      index = 0
+      # index = 0
       if x[index] != y[index]
          mutations += 1
       end
 
       index += 1
     end # while loop
-    index += 1
+
+    return mutations 
+    # index += 1
   end # compute
 end # Hamming
